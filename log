@@ -69,3 +69,14 @@ Sat, May  3, 2025  7:32:29 PM:
  tests:  14|5
 total_score: 15/70
 32045f1
+Sat, May  3, 2025  7:41:05 PM: 
+ treemap.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'firstTreeMap':
+treemap.c:128:45: error: implicit declaration of function 'retur' [-Werror=implicit-function-declaration]
+     if (tree == NULL || tree->root == NULL) retur NULL;
+                                             ^~~~~
+cc1.exe: all warnings being treated as errors
+b53df7b
