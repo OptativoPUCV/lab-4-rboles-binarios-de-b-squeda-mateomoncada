@@ -137,6 +137,10 @@ Pair * upperBound(TreeMap * tree, void* key) {
             current = current->right; 
         }
     }
+    if (candidate) {
+        tree->current = candidate;
+        return candidate->pair;
+    }
     return NULL;
 }
 
