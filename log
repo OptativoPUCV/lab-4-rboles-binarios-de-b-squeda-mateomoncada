@@ -146,3 +146,13 @@ Sat, May  3, 2025  8:00:26 PM:
  tests:  25|2
 total_score: 45/70
 4d94673
+Sun, May  4, 2025  4:15:32 PM: 
+ treemap.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:91:27: error: expected identifier before '==' token
+         if(node->parent-> == node) {
+                           ^~
+e90c7d0
