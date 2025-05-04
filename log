@@ -156,3 +156,9 @@ treemap.c:91:27: error: expected identifier before '==' token
          if(node->parent-> == node) {
                            ^~
 e90c7d0
+Sun, May  4, 2025  4:16:00 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  26|2
+total_score: 50/70
+d461799
