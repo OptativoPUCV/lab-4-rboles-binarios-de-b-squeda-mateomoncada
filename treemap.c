@@ -119,7 +119,7 @@ if (node->left == NULL || node->right == NULL) {
     return;
 }
 
-TreeNode * successoe = minimun(node->right);
+TreeNode * successoe = minimum(node->right);
     node->pair->key = successoe->pair->key;
     node->pair->value = successoe->pair->value;
     removeNode(tree, successoe);
