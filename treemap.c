@@ -136,7 +136,7 @@ while (current) {
     } else {
         current = current->right; 
     }
-})
+}
     return NULL;
 }
 
