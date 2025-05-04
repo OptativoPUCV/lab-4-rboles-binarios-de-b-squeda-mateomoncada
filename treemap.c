@@ -118,6 +118,11 @@ if (node->left == NULL || node->right == NULL) {
     free(node);
     return;
 }
+
+TreeNode * successoe = minimun(node->right);
+    node->pair->key = successoe->pair->key;
+    node->pair->value = successoe->pair->value;
+    removeNode(tree, successoe);
 }
 
 void eraseTreeMap(TreeMap * tree, void* key){
@@ -212,3 +217,4 @@ Pair * nextTreeMap(TreeMap * tree) {
 
     return NULL; 
 }
+           
